@@ -1,0 +1,202 @@
+.rs-news {
+  margin: 80px 0px 84px;
+  position: relative;
+}
+
+@media (max-width: 1140px) {
+  .rs-news {
+    margin: calc(30px + (80 - 30) * ((100vw - 320px) / (1140 - 320))) 0px calc(30px + (84 - 30) * ((100vw - 320px) / (1140 - 320)));
+  }
+}
+
+.rs-news__slider {
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .rs-news__slider {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 540px) {
+  .rs-news__slider {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+
+.rs-news__slide {
+  min-height: 258px;
+  height: auto;
+}
+
+.rs-news__item {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+@media (any-hover: hover) {
+  .rs-news__item:hover .rs-news__img .icon {
+    opacity: 1;
+  }
+  .rs-news__item:hover .rs-news__img img {
+    opacity: 0.5;
+  }
+}
+
+.rs-news__item a {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.rs-news__img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.rs-news__img .icon {
+  position: absolute;
+  display: block;
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3943ed;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 1;
+}
+
+.rs-news__img .icon::before, .rs-news__img .icon::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+      -ms-transform: translate(-50%, -50%) rotate(-90deg);
+          transform: translate(-50%, -50%) rotate(-90deg);
+  width: 2px;
+  height: 13px;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+}
+
+.rs-news__img .icon::before {
+  -webkit-transform: translate(-50%, -50%) rotate(0deg);
+      -ms-transform: translate(-50%, -50%) rotate(0deg);
+          transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.rs-news__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.rs-news__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 20px 8px 16px;
+  text-align: center;
+}
+
+.rs-news__body h5 {
+  min-height: 44px;
+  margin-bottom: 24px;
+}
+
+.rs-news__body .rs-news-date {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8d8d8d;
+  margin-bottom: 6px;
+}
+
+.rs-news__body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
+}
+
+.rs-news__button {
+  width: 100%;
+  position: relative;
+}
+
+.rs-news__button::after {
+  content: "";
+  display: block;
+  width: calc(100% - 32px);
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0;
+  z-index: -1;
+  background-color: #ededed;
+}
+
+.rs-news__button .rs-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 0px;
+  background-color: transparent;
+}
+
+.rs-news__button .rs-link i {
+  margin-left: 6px;
+  width: 24px;
+  display: block;
+  height: 24px;
+}
+
+.rs-news__button .rs-link i::before {
+  color: #3943ed;
+  font-size: 24px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}

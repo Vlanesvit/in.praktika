@@ -1,0 +1,285 @@
+.rs-reviews {
+  position: relative;
+  margin: 58px 0px 0px;
+}
+
+@media (max-width: 1140px) {
+  .rs-reviews {
+    margin: calc(30px + (58 - 30) * ((100vw - 320px) / (1140 - 320))) 0px 0px;
+  }
+}
+
+.rs-reviews__slider {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .rs-reviews__slider {
+    margin-top: 15px;
+  }
+}
+
+.rs-reviews__slide {
+  min-height: 450px;
+  height: auto;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+}
+
+.rs-reviews__slide.swiper-slide-next {
+  opacity: 0.4;
+  -webkit-filter: blur(3.98646px);
+          filter: blur(3.98646px);
+  margin-top: -27px;
+}
+
+.rs-reviews__slide.swiper-slide-active {
+  opacity: 1;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+
+.rs-reviews__item {
+  height: 100%;
+  background-color: #eff9ff;
+  padding: 40px 40px 39px 38px;
+  width: 100%;
+  max-width: 995px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1140px) {
+  .rs-reviews__item {
+    max-width: calc(325px + (995 - 325) * ((100vw - 320px) / (1140 - 320)));
+  }
+}
+
+@media (max-width: 1140px) {
+  .rs-reviews__item {
+    padding: calc(24px + (40 - 24) * ((100vw - 320px) / (1140 - 320)));
+  }
+}
+
+.rs-reviews__letter {
+  position: relative;
+  margin-right: 60px;
+}
+
+@media (max-width: 1140px) {
+  .rs-reviews__letter {
+    margin-right: calc(20px + (60 - 20) * ((100vw - 768px) / (1140 - 768)));
+  }
+}
+
+@media (min-width: 769px) {
+  .rs-reviews__letter {
+    min-width: 274px;
+    height: 362px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .rs-reviews__letter {
+    margin-right: 0px;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .rs-reviews__letter {
+    max-width: 94px;
+    height: 125px;
+    margin-top: 0px;
+  }
+}
+
+@media (any-hover: hover) {
+  .rs-reviews__letter:hover::before {
+    opacity: 1;
+  }
+  .rs-reviews__letter:hover::after {
+    opacity: 1;
+  }
+}
+
+.rs-reviews__letter::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.rs-reviews__letter::after {
+  content: "\e900";
+  font-family: "icomoon" !important;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 56px;
+  height: 56px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #3943ed;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+  font-size: 26px;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .rs-reviews__letter::before {
+    opacity: 1;
+  }
+  .rs-reviews__letter::after {
+    opacity: 1;
+  }
+}
+
+.rs-reviews__letter img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.rs-reviews__title {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ededed;
+}
+
+@media (min-width: 769px) {
+  .rs-reviews__title_body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .rs-reviews__title_body {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .rs-reviews__title_body {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: left;
+  }
+  .rs-reviews__title_body img {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rs-reviews__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .rs-reviews__title {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.rs-reviews__text p {
+  margin-top: 16px;
+  line-height: 26px;
+}
+
+.rs-reviews__action {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rs-reviews__action_navigation {
+  margin-left: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2px;
+}
+
+@media (max-width: 1140px) {
+  .rs-reviews__action_navigation {
+    margin-left: calc(15px + (41 - 15) * ((100vw - 320px) / (1140 - 320)));
+  }
+}
+
+.rs-reviews__action_navigation .rs-reviews__button-prev {
+  margin: 0 4px 0 0;
+}
+
+.rs-reviews__action_navigation .rs-reviews__button-next {
+  margin: 0 0 0 4px;
+}

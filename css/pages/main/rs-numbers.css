@@ -1,0 +1,39 @@
+.rs-numbers {
+  padding: 50px 0 70px;
+  background-color: #2ea8de;
+  position: relative;
+}
+
+.rs-numbers__list {
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 992px) {
+  .rs-numbers__list {
+        grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+  }
+}
+
+.rs-numbers__item {
+  text-align: center;
+  color: #fff;
+}
+
+.rs-numbers__item h2 {
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+@media (max-width: 1140px) {
+  .rs-numbers__item h2 {
+    font-size: calc(50px + (60 - 50) * ((100vw - 320px) / (1140 - 320)));
+    line-height: calc(62px + (72 - 62) * ((100vw - 320px) / (1140 - 320)));
+  }
+}

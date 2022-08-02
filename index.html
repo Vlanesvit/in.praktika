@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<!-- Галерея -->
+	<link rel="stylesheet" href="https://unpkg.com/lightgallery@2.4.0/css/lightgallery-bundle.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/lightgallery@2.4.0/css/lg-zoom.css">
+
+	<link rel="stylesheet" href="css/rs-style.css">
+	<link rel="stylesheet" href="css/rs-common-style.css">
+	<title>Главная - In.Praktika</title>
+</head>
+
+<body>
+
+	<!-- wrapper -->
+	<div class="wrapper">
+
+		<!-- rs-header -->
+		<link rel="stylesheet" href="css/rs-header.css">
+		<script src="js/rs-header.js" defer></script>
+		<header>
+			<div class="rs-header">
+				<div class="rs-header__container">
+					<div class="rs-header__logo">
+						<a href="#">
+							<img src="./img/header/logo.svg" alt="">
+						</a>
+					</div>
+					<div class="rs-header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu-item dropdown current_menu_item">
+									<a href="#">Направления<i class="rs-icon-list-arrow_down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="menu-item dropdown"><a href="#">Стратегия и видение, управление<i
+													class="rs-icon-list-arrow_down"></i></a>
+											<ul class="dropdown-menu">
+												<li class="menu-item"><a href="#">Стратегия и видение, управление</a></li>
+												<li class="menu-item"><a href="#">HR-консалтинг, управление людьми</a></li>
+												<li class="menu-item"><a href="#">Процессы, автоматизация, цифровая трансформация</a></li>
+												<li class="menu-item"><a href="#">Финансовое управление компанией</a></li>
+												<li class="menu-item"><a href="#">Отношения с потребителем</a></li>
+												<li class="menu-item"><a href="#">IT- консалтинг</a></li>
+												<li class="menu-item"><a href="#">Управление изменениями</a></li>
+												<li class="menu-item"><a href="#">Внедрение инноваций</a></li>
+												<li class="menu-item"><a href="#">Управление проектами</a></li>
+												<li class="menu-item"><a href="#">Интерим менеджмент</a></li>
+											</ul>
+										</li>
+										<li class="menu-item"><a href="#">HR-консалтинг, управление людьми</a></li>
+										<li class="menu-item"><a href="#">Процессы, автоматизация, цифровая трансформация</a></li>
+										<li class="menu-item"><a href="#">Финансовое управление компанией</a></li>
+										<li class="menu-item"><a href="#">Отношения с потребителем</a></li>
+										<li class="menu-item"><a href="#">IT- консалтинг</a></li>
+										<li class="menu-item"><a href="#">Управление изменениями</a></li>
+										<li class="menu-item"><a href="#">Внедрение инноваций</a></li>
+										<li class="menu-item"><a href="#">Управление проектами</a></li>
+										<li class="menu-item"><a href="#">Интерим менеджмент</a></li>
+									</ul>
+								</li>
+								<li class="menu-item dropdown">
+									<a href="#">Команда<i class="rs-icon-list-arrow_down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="menu-item"><a href="#">Ирина Матвеева</a></li>
+									</ul>
+								</li>
+								<li class="menu-item dropdown">
+									<a href="#">Кейсы<i class="rs-icon-list-arrow_down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="menu-item"><a href="#">Разработка плана внедрения информационной системы</a></li>
+										<li class="menu-item"><a href="#">Управление коммуникациями компании Tapcore</a></li>
+									</ul>
+								</li>
+								<li class="menu-item dropdown">
+									<a href="#">О нас<i class="rs-icon-list-arrow_down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="menu-item"><a href="#">Стать членом сообщества</a></li>
+									</ul>
+								</li>
+								<li class="menu-item"><a href="#">Новости</a></li>
+								<li class="menu-item"><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="rs-header__action">
+						<div class="rs-header__search search">
+							<div class="search__buttons">
+								<button id="search-show" class="search-btn search-show rs-icon-search _active" type="button"></button>
+								<button id="search-hide" class="search-btn search-hide rs-icon-clear" type="button"></button>
+							</div>
+							<div class="search__wrapper">
+								<form action="#" class="search__form">
+									<div class="search__field">
+										<input autocomplete="off" type="text" name="form[]" placeholder="Search..." class="search__input"
+											required>
+										<button id="search-clear" class="search__clear rs-icon-clear" type="button"></button>
+										<button id="search-submit" class="search__submit rs-icon-search" type="submit"></button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="rs-header__button" data-da=".rs-header__menu .menu__body, 992, last">
+							<a href="#" class="rs-btn btn-grey ">Получить консультацию</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- /rs-header -->
+
+		<!-- page -->
+		<main class="page">
+
+			<!-- rs-banner -->
+			<link rel="stylesheet" href="css/pages/main/rs-banner.css">
+			<section class="rs-banner">
+				<div class="rs-banner__bg">
+					<picture>
+						<source srcset="./img/pages/main/rs-banner/banner.webp" type="image/webp">
+						<img src="./img/pages/main/rs-banner/banner.jpg" alt="">
+					</picture>
+					<picture>
+						<source srcset="./img/pages/main/rs-banner/banner_min.webp" type="image/webp">
+						<img src="./img/pages/main/rs-banner/banner_min.jpg" alt="">
+					</picture>
+				</div>
+				<div class="rs-banner__prlx_wrapper prlx-parent">
+					<div class="rs-banner__prlx-item rs-banner__prlx-item-1 prlx-animated">
+						<picture>
+							<source srcset="./img/pages/main/rs-banner/3D_1.1.webp" type="image/webp">
+							<img src="./img/pages/main/rs-banner/3D_1.1.png" alt="">
+						</picture>
+					</div>
+					<div class="rs-banner__prlx-item rs-banner__prlx-item-2 prlx-animated">
+						<picture>
+							<source srcset="./img/pages/main/rs-banner/3D_1.2.webp" type="image/webp">
+							<img src="./img/pages/main/rs-banner/3D_1.2.png" alt="">
+						</picture>
+					</div>
+					<div class="rs-banner__prlx-item rs-banner__prlx-item-3 prlx-animated">
+						<picture>
+							<source srcset="./img/pages/main/rs-banner/3D_1.3.webp" type="image/webp">
+							<img src="./img/pages/main/rs-banner/3D_1.3.png" alt="">
+						</picture>
+					</div>
+				</div>
+				<div class="rs-banner__container">
+					<div class="rs-banner__text">
+						<h1 class="extra-large-title">In.Praktika</h1>
+						<svg width="363" height="43" viewBox="0 0 363 43" fill="none" xmlns="http://www.w3.org/2000/svg"
+							data-llp-composed="true" id="line_underlogo" class="lazy-line-painter svg-init">
+							<path
+								d="M4 22.6351C124.373 16.4234 363.881 4 358.924 4C352.729 4 35.8635 37.7206 56.2208 38.608C64.152 38.9537 89.3387 39.0329 118 38.9889"
+								data-llp-id="line_underlogo-0" data-llp-duration="500" data-llp-delay="0" fill-opacity="0"
+								style="stroke-linecap: round;" data-llp-stroke-join="" data-llp-stroke-cap="round" />
+						</svg>
+						<h2 class="large-title">— сообщество бизнес-консультантов и бизнес-экспертов</h2>
+						<p class="large-text">Вы найдете того, кто поможет развить ваш бизнес</p>
+					</div>
+					<div class="rs-banner__button">
+						<a href="#" class="rs-btn">Оставить заявку</a>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-banner -->
+
+			<!-- rs-our-team -->
+			<link rel="stylesheet" href="css/pages/main/rs-our-team.css">
+			<script src="js/pages/main/rs-our-team.js" defer></script>
+			<section class="rs-our-team">
+				<div class="rs-our-team__container">
+					<div class="rs-our-team__slider">
+						<div class="rs-our-team__swiper">
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_1.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_1.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Вадим Тян</h4>
+											<p class="section-text">Интерим-менеджер</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_2.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_2.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Светлана Васьковская</h4>
+											<p class="section-text">Советник по командообразованию <br>и лидерству</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_3.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_3.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Мария Дрепа</h4>
+											<p class="section-text">Консультант по управлению человеческим капиталом и трансформации</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_4.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_4.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Тимофей Левицкий</h4>
+											<p class="section-text">Управляющий партнер компании SLS In.Praktika</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_5.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_5.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Ирина Матвеева</h4>
+											<p class="section-text">Бизнес-коуч, руководитель HR направления</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_6.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_6.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Владимир Попов</h4>
+											<p class="section-text">Консультант по финансово-экономическому управлению</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_7.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_7.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Александр Солнцев</h4>
+											<p class="section-text">Бизнес-тренер, организационный консультант, коуч</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_8.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_8.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Олег Суворов</h4>
+											<p class="section-text">Бизнес-консультант по внедрению IT-технологий</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_9.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_9.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Руслан Шарипов</h4>
+											<p class="section-text">Консультант по автоматизации бизнес-процессов</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-our-team__slide">
+								<div class="rs-our-team__item">
+									<a href="#">
+										<div class="rs-our-team__img">
+											<picture>
+												<source srcset="./img/pages/main/rs-our-team/person_10.webp" type="image/webp">
+												<img src="./img/pages/main/rs-our-team/person_10.jpg" alt="">
+											</picture>
+											<div class="rs-our-team__button">
+												<span class="rs-btn">Подробнее</span>
+											</div>
+										</div>
+										<div class="rs-our-team__description">
+											<h4 class="medium-title">Роман Шварцман</h4>
+											<p class="section-text">Консультант по управлению бизнес-ресурсов</p>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="rs-our-team__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-our-team -->
+
+			<!-- rs-numbers -->
+			<link rel="stylesheet" href="css/pages/main/rs-numbers.css">
+			<script src="js/pages/main/rs-numbers.js" defer></script>
+			<section class="rs-numbers">
+				<div class="rs-numbers__container">
+					<div class="rs-numbers__list">
+						<div class="rs-numbers__item">
+							<h2 class="rs-numbers__counter"><span data-counter="10">0</span></h2>
+							<p class="medium-text">бизнес-консультантов</p>
+						</div>
+						<div class="rs-numbers__item">
+							<h2 class="rs-numbers__counter"><span data-counter="200">0</span>+</h2>
+							<p class="medium-text">проектов реализовано</p>
+						</div>
+						<div class="rs-numbers__item">
+							<h2 class="rs-numbers__counter"><span data-counter="113">0</span></h2>
+							<p class="medium-text">проектов выполнены совместно</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-numbers -->
+
+			<!-- rs-services -->
+			<link rel="stylesheet" href="css/pages/main/rs-services.css">
+			<script src="js/pages/common/rs-spollers.js" defer></script>
+			<section class="rs-services">
+				<div class="rs-services__container">
+					<div class="rs-services__wrapper">
+						<div class="rs-services__picture">
+							<div class="rs-services__prlx_wrapper prlx-parent">
+								<div class="rs-services__img">
+									<picture>
+										<source srcset="./img/pages/main/rs-services/img_4.webp" type="image/webp">
+										<img src="./img/pages/main/rs-services/img_4.png" alt="">
+									</picture>
+								</div>
+								<div class="rs-services__prlx-item rs-services__prlx-item-1 prlx-animated">
+									<picture>
+										<source srcset="./img/pages/main/rs-services/3D_4.1.webp" type="image/webp">
+										<img src="./img/pages/main/rs-services/3D_4.1.png" alt="">
+									</picture>
+								</div>
+								<div class="rs-services__prlx-item rs-services__prlx-item-2 prlx-animated">
+									<picture>
+										<source srcset="./img/pages/main/rs-services/3D_4.2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-services/3D_4.2.png" alt="">
+									</picture>
+								</div>
+								<div class="rs-services__prlx-item rs-services__prlx-item-3 prlx-animated">
+									<picture>
+										<source srcset="./img/pages/main/rs-services/3D_4.3.webp" type="image/webp">
+										<img src="./img/pages/main/rs-services/3D_4.3.png" alt="">
+									</picture>
+								</div>
+								<div class="rs-services__prlx-item rs-services__prlx-item-4 prlx-animated">
+									<img src="./img/pages/main/rs-services/3D_4.4.svg" alt="">
+								</div>
+								<div class="rs-services__prlx-item rs-services__prlx-item-5 prlx-animated">
+									<img src="./img/pages/main/rs-services/3D_4.5.svg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="rs-services__description">
+							<h2 class="section-title">Экспертный портфель</h2>
+							<div data-spollers data-one-spoller class="rs-services__spollers spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title _spoller-active">
+										<span>Стратегия и видение, управление</span>
+										<i class="spollers__icon"></i>
+									</button>
+									<div class="spollers__body">
+										<ul class="check-list">
+											<li>Стратегические сессии и сессии организационного развития</li>
+											<li>Форсайт-сессии</li>
+											<li>Разработка миссии</li>
+											<li>Разработка продуктов</li>
+											<li>Внедрение ценностей в компании</li>
+										</ul>
+										<a href="#" class="rs-btn">Подробнее</a>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										<span>HR-консалтинг, управление людьми</span>
+										<i class="spollers__icon"></i>
+									</button>
+									<div class="spollers__body">
+										<ul class="check-list">
+											<li>Оценка персонала</li>
+											<li>Развитие руководителей</li>
+											<li>Индивидуальный коучинг первых лиц</li>
+											<li>Развитие команды топов</li>
+											<li>Agile, SCRUM, новые методы управления</li>
+											<li>Комплексные программы обучения персонала</li>
+											<li>Трансформация корп. культуры компании</li>
+											<li>Постановка систем наставничества</li>
+											<li>Комплексные программы развития кадрового резерва</li>
+											<li>HR-автоматизация</li>
+											<li>Корпоративный акселератор / инкубатор</li>
+										</ul>
+										<a href="#" class="rs-btn">Подробнее</a>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										<span>Процессы, автоматизация, цифровая трансформация</span>
+										<i class="spollers__icon"></i>
+									</button>
+									<div class="spollers__body">
+										<ul class="check-list">
+											<li>Оптимизация и автоматизация бизнес-процессов</li>
+											<li>Реинжиниринг бизнес-процессов</li>
+											<li>Закупки и логистика</li>
+											<li>Финансы и учет</li>
+											<li>Система показателей</li>
+										</ul>
+										<a href="#" class="rs-btn">Подробнее</a>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										<span>Управление финансами компании</span>
+										<i class="spollers__icon"></i>
+									</button>
+									<div class="spollers__body">
+										<ul class="check-list">
+											<li>Аудит системы финансово-экономического управления</li>
+											<li>Настройка хозрасчетной модели управления бизнесом</li>
+											<li>Реконструкция системы материальной мотивации</li>
+											<li>Автоматизация финансово-экономического управления</li>
+											<li>Менторинг для служб финансово-экономического управления</li>
+										</ul>
+										<a href="#" class="rs-btn">Подробнее</a>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										<span>IT- консалтинг</span>
+										<i class="spollers__icon"></i>
+									</button>
+									<div class="spollers__body">
+										<ul class="check-list">
+											<li>Решение IT-проблем для бизнеса</li>
+											<li>Внедрение IT-технологий на нужды бизнеса</li>
+											<li>Обучение IT-руководителей</li>
+											<li>Помощь в реализации крупного IT-проекта</li>
+											<li>Аудит IT-отдела</li>
+										</ul>
+										<a href="#" class="rs-btn">Подробнее</a>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										<span>Управление изменениями, внедрение инноваций</span>
+										<i class="spollers__icon"></i>
+									</button>
+									<div class="spollers__body">
+										<ul class="check-list">
+											<li>Программа развития «Управление измененями»</li>
+											<li>Разработка стратегии внедрения изменений</li>
+											<li>Работа с сопротивлением изменениям</li>
+											<li>Подготовка к цифровой трансформации</li>
+										</ul>
+										<a href="#" class="rs-btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-services -->
+
+			<!-- rs-parallax -->
+			<link rel="stylesheet" href="css/pages/main/rs-parallax.css">
+			<section class="rs-parallax">
+				<div class="rs-parallax__bg">
+					<picture>
+						<source srcset="./img/pages/main/rs-parallax/parallax.webp" type="image/webp">
+						<img src="./img/pages/main/rs-parallax/parallax.jpg" alt="">
+					</picture>
+				</div>
+				<div class="rs-parallax__content">
+					<div class="rs-parallax__container">
+						<div class="rs-parallax__body">
+							<h2 class="section-title">Почувствуйте <span>рост в новом году</span></h2>
+							<p class="extra-medium-text">Скорая помощь любому бизнесу от экспертов с огромным опытом
+								и отработанными навыками. Работаем в РФ и СНГ!</p>
+							<a href="#" class="rs-btn">Получить помощь эксперта </a>
+						</div>
+						<div class="rs-parallax__prlx_wrapper prlx-parent">
+							<div class="rs-parallax__prlx-item rs-parallax__prlx-item-1 prlx-animated">
+								<img src="./img/pages/main/rs-parallax/arrows_5.2.svg" alt="">
+							</div>
+							<div class="rs-parallax__prlx-item rs-parallax__prlx-item-2 prlx-animated">
+								<img src="./img/pages/main/rs-parallax/ellipse_5.1.svg" alt="">
+							</div>
+							<div class="rs-parallax__prlx-item rs-parallax__prlx-item-3 prlx-animated">
+								<img src="./img/pages/main/rs-parallax/ellipse_5.3.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-parallax -->
+
+			<!-- rs-features -->
+			<link rel="stylesheet" href="css/pages/main/rs-features.css">
+			<script src="js/pages/main/rs-features.js" defer></script>
+			<section class="rs-features">
+				<div class="rs-features__container">
+					<h2 class="section-title">Почему <span>нам доверяют</span></h2>
+					<div class="rs-features__slider">
+						<div class="rs-features__swiper">
+							<div class="rs-features__slide">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/pages/main/rs-features/features-icon_1.svg" alt="">
+									</div>
+									<div class="rs-features__description">
+										<h4 class="medium-title">Проекты «под ключ»</h4>
+										<p class="section-text">Дорожная карта любой сложности и масштаба с реалистичным планом работ по
+											достижению целей в срок
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="rs-features__slide">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/pages/main/rs-features/features-icon_2.svg" alt="">
+									</div>
+									<div class="rs-features__description">
+										<h4 class="medium-title">100% погружение</h4>
+										<p class="section-text">Отказ от упрощенных и «стандартных» решений, предложение заказчикам
+											эффективных технологий и новых идей
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="rs-features__slide">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/pages/main/rs-features/features-icon_3.svg" alt="">
+									</div>
+									<div class="rs-features__description">
+										<h4 class="medium-title">Выгодные предложения</h4>
+										<p class="section-text">Доступная рыночная стоимость профессиональных услуг за счет коллаборации
+											экспертов различных отраслей
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="rs-features__slide">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/pages/main/rs-features/features-icon_4.svg" alt="">
+									</div>
+									<div class="rs-features__description">
+										<h4 class="medium-title">Системный подход</h4>
+										<p class="section-text">Формирование стратегий, направленных на управление, развитие и
+											масштабирование любого бизнеса
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="rs-features__slide">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/pages/main/rs-features/features-icon_5.svg" alt="">
+									</div>
+									<div class="rs-features__description">
+										<h4 class="medium-title">Экспертная поддержка</h4>
+										<p class="section-text">Возможность получить честную и результативную помощь, ведущую к росту
+											прибыли и защите интересов
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="rs-features__slide">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/pages/main/rs-features/features-icon_6.svg" alt="">
+									</div>
+									<div class="rs-features__description">
+										<h4 class="medium-title">Опыт от 10 лет</h4>
+										<p class="section-text">Все участники сообщества имеют многолетний стаж в управленческом консалтинге
+											и бизнес-планировании
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rs-features__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-features -->
+
+			<!-- rs-about-us -->
+			<link rel="stylesheet" href="css/pages/main/rs-about-us.css">
+			<section class="rs-about-us">
+				<div class="rs-about-us__container">
+					<div class="rs-about-us__wrapper">
+						<div class="rs-about-us__description">
+							<h2 class="section-title">О нас</h2>
+							<p class="section-text">
+								IN.PRAKTIKA — это открытое сообщество экспертов в сфере оказания интеллектуальных услуг для малого и
+								среднего бизнеса РФ и СНГ. Компетентные бизнес-консультанты устранят все ключевые препятствия для роста
+								и развития бизнеса.
+							</p>
+							<h4 class="medium-title">Что мы предлагаем:</h4>
+							<ul class="check-list">
+								<li>Разработка бизнес-плана и бизнес-процессов</li>
+								<li>Формирование стратегии и команды</li>
+								<li>Настройка систем и механизмов управления</li>
+								<li>Выход на новые рынки и «взлет» компании</li>
+								<li>Привлечение и удержание клиентов</li>
+								<li>Повышение прибыли и рентабельности</li>
+							</ul>
+							<p class="section-text">
+								Предоставляем консультации по открытию, ведению и масштабированию бизнеса. Мы рассмотрим
+								бизнес-деятельность под разными ракурсами и сумеем найти самые эффективные решения для текущих, острых и
+								нестандартных проблем. Оперативно предложим проверенных исполнителей для различных задач. Концентрация
+								новейших знаний, методик, технологий и идей выведет Ваш бизнес на новые высоты и отличные результаты.
+								Вам не придется подбирать консультантов из разных сфер. Мы сами порекомендуем вам специалистов, которые
+								будут работать вместе, чтобы ваш бизнес развивался!
+							</p>
+						</div>
+						<div class="rs-about-us__picture">
+							<div class="rs-about-us__picture_wrapper">
+								<div class="rs-about-us__img">
+									<picture>
+										<source srcset="./img/pages/main/rs-about-us/img_7.webp" type="image/webp">
+										<img src="./img/pages/main/rs-about-us/img_7.jpg" alt="">
+									</picture>
+								</div>
+								<div class="rs-about-us__tablet">
+									<h4 class="medium-title">Тимофей Левицкий</h4>
+									<p class="section-text">Управляющий партнер компании SLS In.Praktika</p>
+								</div>
+								<div class="rs-about-us__prlx_wrapper prlx-parent">
+									<div class="rs-about-us__prlx-item rs-about-us__prlx-item-1 prlx-animated">
+										<img src="./img/pages/main/rs-about-us/ellipse_7.1.svg" alt="">
+									</div>
+									<div class="rs-about-us__prlx-item rs-about-us__prlx-item-2 prlx-animated">
+										<img src="./img/pages/main/rs-about-us/ellipse_7.2.svg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-about-us -->
+
+			<!-- rs-partners -->
+			<link rel="stylesheet" href="css/pages/main/rs-partners.css">
+			<script src="js/pages/main/rs-partners.js" defer></script>
+			<section class="rs-partners">
+				<div class="rs-partners__container">
+					<div class="section-header">
+						<h2 class="section-title">Нам доверили <span>свое время</span></h2>
+						<div class="rs-partners__navigation">
+							<div class="rs-partners__button-prev swiper-button-prev rs-icon-list-arrow_left"></div>
+							<div class="rs-partners__button-next swiper-button-next rs-icon-list-arrow_right"></div>
+						</div>
+					</div>
+					<div class="rs-partners__slider">
+						<div class="rs-partners__swiper">
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_1.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_1.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_2.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_3.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_3.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_4.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_4.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_5.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_5.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_6.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_6.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_7.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_7.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_8.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_8.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_9.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_9.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="rs-partners__slide">
+								<div class="rs-partners__item">
+									<picture>
+										<source srcset="./img/pages/main/rs-partners/logo_10.webp" type="image/webp">
+										<img src="./img/pages/main/rs-partners/logo_10.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="rs-partners__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-partners -->
+
+			<!-- rs-differences -->
+			<link rel="stylesheet" href="css/pages/main/rs-differences.css">
+			<section class="rs-differences">
+				<div class="rs-differences__container">
+					<div class="rs-differences__wrapper">
+						<div class="rs-differences__picture">
+							<div class="rs-differences__prlx_wrapper prlx-parent">
+								<div class="rs-differences__img">
+									<picture>
+										<source srcset="./img/pages/main/rs-differences/img_9.webp" type="image/webp">
+										<img src="./img/pages/main/rs-differences/img_9.png" alt="">
+									</picture>
+								</div>
+								<div class="rs-differences__prlx-item rs-differences__prlx-item-1 prlx-animated">
+									<picture>
+										<source srcset="./img/pages/main/rs-differences/3D_9.1.webp" type="image/webp">
+										<img src="./img/pages/main/rs-differences/3D_9.1.png" alt="">
+									</picture>
+								</div>
+								<div class="rs-differences__prlx-item rs-differences__prlx-item-2 prlx-animated">
+									<picture>
+										<source srcset="./img/pages/main/rs-differences/3D_9.2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-differences/3D_9.2.png" alt="">
+									</picture>
+								</div>
+								<div class="rs-differences__prlx-item rs-differences__prlx-item-3 prlx-animated">
+									<picture>
+										<source srcset="./img/pages/main/rs-differences/3D_9.3.webp" type="image/webp">
+										<img src="./img/pages/main/rs-differences/3D_9.3.png" alt="">
+									</picture>
+								</div>
+								<div class="rs-differences__prlx-item rs-differences__prlx-item-4 prlx-animated">
+									<img src="./img/pages/main/rs-differences/ellipse_9.1.svg" alt="">
+								</div>
+								<div class="rs-differences__prlx-item rs-differences__prlx-item-5 prlx-animated">
+									<img src="./img/pages/main/rs-differences/ellipse_9.2.svg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="rs-differences__description">
+							<h2 class="section-title">Чем мы <span>отличаемся от других</span></h2>
+							<p class="section-text">
+								Наша особенность – уникальный подход. У нас нет шаблонов. Наши решения для клиентов опираются на
+								специфику и сильные стороны каждой компании.
+							</p>
+							<h4 class="medium-title">Что это значит для клиента:</h4>
+							<ul class="check-list">
+								<li>Сервис по технологии «Одного окна» – штат опытных экспертов различных профилей, включенных в
+									проблематику</li>
+								<li>Скорость подбора решения «под ключ» – предоставление грамотного консультанта, который профи в своей
+									сфере</li>
+								<li>Сотворчество с клиентом – партнерская позиция, понимание и вовлеченность клиента в каждое решение
+								</li>
+								<li>Cвободно делимся своей экспертизой – передаем и взращиваем экспертный подход в компании клиента</li>
+							</ul>
+							<p class="section-text">
+								Обращаясь к одному консультанту нашей компании, клиент в результате получает силу и компетенции всего
+								сообщества экспертов.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-differences -->
+
+			<!-- rs-cases -->
+			<link rel="stylesheet" href="css/pages/main/rs-cases.css">
+			<script src="js/pages/main/rs-cases.js" defer></script>
+			<section class="rs-cases">
+				<div class="rs-cases__container">
+					<h2 class="section-title">Кейсы</h2>
+					<div class="rs-cases__slider">
+						<div class="rs-cases__swiper">
+							<div class="rs-cases__slide">
+								<div class="rs-cases__item">
+									<a href="#">
+										<div class="rs-cases__logo">
+											<picture>
+												<source srcset="./img/pages/main/rs-cases/cases-img.webp" type="image/webp">
+												<img src="./img/pages/main/rs-cases/cases-img.jpg" alt="">
+											</picture>
+										</div>
+										<div class="rs-cases__body">
+											<h4 class="medium-title">Alex Fitness</h4>
+											<p class="section-text">Проект по комплексному развитию компании (2010 — 2013)</p>
+										</div>
+										<div class="rs-cases__button">
+											<span class="rs-link">Читать далее
+												<i class="rs-icon-arrow-right"></i>
+											</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-cases__slide">
+								<div class="rs-cases__item">
+									<a href="#">
+										<div class="rs-cases__logo">
+											<picture>
+												<source srcset="./img/pages/main/rs-cases/cases-img-1.webp" type="image/webp">
+												<img src="./img/pages/main/rs-cases/cases-img-1.jpg" alt="">
+											</picture>
+										</div>
+										<div class="rs-cases__body">
+											<h4 class="medium-title">Fitness Family</h4>
+											<p class="section-text">Организационное развитие компании (2014 — 2015)</p>
+										</div>
+										<div class="rs-cases__button">
+											<span class="rs-link">Читать далее
+												<i class="rs-icon-arrow-right"></i>
+											</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-cases__slide">
+								<div class="rs-cases__item">
+									<a href="#">
+										<div class="rs-cases__logo">
+											<picture>
+												<source srcset="./img/pages/main/rs-cases/cases-img-2.webp" type="image/webp">
+												<img src="./img/pages/main/rs-cases/cases-img-2.jpg" alt="">
+											</picture>
+										</div>
+										<div class="rs-cases__body">
+											<h4 class="medium-title">Кондитерское производство «Север»</h4>
+											<p class="section-text">Развитие управленческой команды и клиентского сервиса</p>
+										</div>
+										<div class="rs-cases__button">
+											<span class="rs-link">Читать далее
+												<i class="rs-icon-arrow-right"></i>
+											</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-cases__slide">
+								<div class="rs-cases__item">
+									<a href="#">
+										<div class="rs-cases__logo">
+											<picture>
+												<source srcset="./img/pages/main/rs-cases/cases-img-3.webp" type="image/webp">
+												<img src="./img/pages/main/rs-cases/cases-img-3.jpg" alt="">
+											</picture>
+										</div>
+										<div class="rs-cases__body">
+											<h4 class="medium-title">СТА Карго</h4>
+											<p class="section-text">Оптимизация работы IT-подразделения (2015)</p>
+										</div>
+										<div class="rs-cases__button">
+											<span class="rs-link">Читать далее
+												<i class="rs-icon-arrow-right"></i>
+											</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="rs-cases__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-cases -->
+
+			<!-- rs-reviews -->
+			<link rel="stylesheet" href="css/pages/main/rs-reviews.css">
+			<script src="js/pages/main/rs-reviews.js" defer></script>
+			<section class="rs-reviews">
+				<div class="rs-reviews__container">
+					<h2 class="section-title">Благодарственные <span>письма</span></h2>
+					<div class="rs-reviews__slider" data-gallery>
+						<div class="rs-reviews__swiper">
+							<div class="rs-reviews__slide rs-reviews__slide-1">
+								<div class="rs-reviews__item">
+									<div class="rs-reviews__letter"
+										data-da=".rs-reviews__slide-1 .rs-reviews__description .rs-reviews__title, 768, last"
+										data-gallery-item data-src="./img/pages/main/rs-reviews/letter_1.jpg">
+										<picture>
+											<source srcset="./img/pages/main/rs-reviews/letter_1.webp" type="image/webp">
+											<img src="./img/pages/main/rs-reviews/letter_1.jpg" alt="">
+										</picture>
+									</div>
+									<div class="rs-reviews__description">
+										<div class="rs-reviews__title">
+											<div class="rs-reviews__title_body">
+												<h4 class="extra-medium-title">СТА Карго</h4>
+												<div class="rs-reviews__logo-company">
+													<picture>
+														<source srcset="./img/pages/main/rs-reviews/reviews-logo-1.webp" type="image/webp">
+														<img src="./img/pages/main/rs-reviews/reviews-logo-1.png" alt="">
+													</picture>
+												</div>
+											</div>
+										</div>
+										<div class="rs-reviews__text">
+											<p class="section-text">
+												Для современного мира сложившаяся структура организации влечет за собой процесс внедрения и
+												модернизации распределения внутренних резервов и ресурсов. Как принято считать, независимые
+												государства формируют глобальную экономическую сеть и при этом - объективно рассмотрены
+												соответствующими инстанциями.
+											</p>
+											<p class="section-text">
+												Идейные соображения высшего порядка, а также убеждённость некоторых оппонентов однозначно
+												фиксирует необходимость стандартных подходов. В рамках спецификации современных стандартов,
+												элементы политического процесса формируют глобальную экономическую сеть и при этом -
+												своевременно верифицированы.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="rs-reviews__slide rs-reviews__slide-2">
+								<div class="rs-reviews__item">
+									<div class="rs-reviews__letter"
+										data-da=".rs-reviews__slide-2 .rs-reviews__description .rs-reviews__title, 768, last"
+										data-gallery-item data-src="./img/pages/main/rs-reviews/letter_1.jpg">
+										<picture>
+											<source srcset="./img/pages/main/rs-reviews/letter_1.webp" type="image/webp">
+											<img src="./img/pages/main/rs-reviews/letter_1.jpg" alt="">
+										</picture>
+									</div>
+									<div class="rs-reviews__description">
+										<div class="rs-reviews__title">
+											<div class="rs-reviews__title_body">
+												<h4 class="extra-medium-title">СТА Карго</h4>
+												<div class="rs-reviews__logo-company">
+													<picture>
+														<source srcset="./img/pages/main/rs-reviews/reviews-logo-1.webp" type="image/webp">
+														<img src="./img/pages/main/rs-reviews/reviews-logo-1.png" alt="">
+													</picture>
+												</div>
+											</div>
+										</div>
+										<div class="rs-reviews__text">
+											<p class="section-text">
+												Для современного мира сложившаяся структура организации влечет за собой процесс внедрения и
+												модернизации распределения внутренних резервов и ресурсов. Как принято считать, независимые
+												государства формируют глобальную экономическую сеть и при этом - объективно рассмотрены
+												соответствующими инстанциями.
+											</p>
+											<p class="section-text">
+												Идейные соображения высшего порядка, а также убеждённость некоторых оппонентов однозначно
+												фиксирует необходимость стандартных подходов. В рамках спецификации современных стандартов,
+												элементы политического процесса формируют глобальную экономическую сеть и при этом -
+												своевременно верифицированы.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="rs-reviews__slide rs-reviews__slide-3">
+								<div class="rs-reviews__item">
+									<div class="rs-reviews__letter"
+										data-da=".rs-reviews__slide-3 .rs-reviews__description .rs-reviews__title, 768, last"
+										data-gallery-item data-src="./img/pages/main/rs-reviews/letter_1.jpg">
+										<picture>
+											<source srcset="./img/pages/main/rs-reviews/letter_1.webp" type="image/webp">
+											<img src="./img/pages/main/rs-reviews/letter_1.jpg" alt="">
+										</picture>
+									</div>
+									<div class="rs-reviews__description">
+										<div class="rs-reviews__title">
+											<div class="rs-reviews__title_body">
+												<h4 class="extra-medium-title">СТА Карго</h4>
+												<div class="rs-reviews__logo-company">
+													<picture>
+														<source srcset="./img/pages/main/rs-reviews/reviews-logo-1.webp" type="image/webp">
+														<img src="./img/pages/main/rs-reviews/reviews-logo-1.png" alt="">
+													</picture>
+												</div>
+											</div>
+										</div>
+										<div class="rs-reviews__text">
+											<p class="section-text">
+												Для современного мира сложившаяся структура организации влечет за собой процесс внедрения и
+												модернизации распределения внутренних резервов и ресурсов. Как принято считать, независимые
+												государства формируют глобальную экономическую сеть и при этом - объективно рассмотрены
+												соответствующими инстанциями.
+											</p>
+											<p class="section-text">
+												Идейные соображения высшего порядка, а также убеждённость некоторых оппонентов однозначно
+												фиксирует необходимость стандартных подходов. В рамках спецификации современных стандартов,
+												элементы политического процесса формируют глобальную экономическую сеть и при этом -
+												своевременно верифицированы.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rs-reviews__action swiper-action">
+							<div class="rs-reviews__pagination swiper-pagination"></div>
+							<div class="rs-reviews__action_navigation">
+								<div class="rs-reviews__button-prev swiper-button-prev rs-icon-list-arrow_left"></div>
+								<div class="rs-reviews__button-next swiper-button-next rs-icon-list-arrow_right"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-reviews -->
+
+			<!-- rs-news -->
+			<link rel="stylesheet" href="css/pages/main/rs-news.css">
+			<script src="js/pages/main/rs-news.js" defer></script>
+			<section class="rs-news">
+				<div class="rs-news__container">
+					<h2 class="section-title">Новости <span>в мире бизнеса</span></h2>
+					<div class="rs-news__slider">
+						<div class="rs-news__swiper">
+							<div class="rs-news__slide">
+								<div class="rs-news__item">
+									<a href="#">
+										<div class="rs-news__img">
+											<div class="icon"></div>
+											<picture>
+												<source srcset="./img/pages/main/rs-news/news_1.webp" type="image/webp">
+												<img src="./img/pages/main/rs-news/news_1.jpg" alt="">
+											</picture>
+										</div>
+										<div class="rs-news__body">
+											<h5 class="small-title">Мы знаем, что делать</h5>
+											<div class="rs-news-date">25 июля 2021</div>
+											<p class="section-text">Для того чтобы преуспеть в бизнесе, необходимо стабильно развиваться,</p>
+										</div>
+										<div class="rs-news__button">
+											<span class="rs-link">Подробнее
+												<i class="rs-icon-arrow-right"></i>
+											</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-news__slide">
+								<div class="rs-news__item">
+									<a href="#">
+										<div class="rs-news__img">
+											<div class="icon"></div>
+											<picture>
+												<source srcset="./img/pages/main/rs-news/news_2.webp" type="image/webp">
+												<img src="./img/pages/main/rs-news/news_2.jpg" alt="">
+											</picture>
+										</div>
+										<div class="rs-news__body">
+											<h5 class="small-title">История рождения и эволюции</h5>
+											<div class="rs-news-date">25 июля 2021</div>
+											<p class="section-text">Свыше 10 лет назад было создано сообщество IN.PRAKTIKA –</p>
+										</div>
+										<div class="rs-news__button">
+											<span class="rs-link">Подробнее
+												<i class="rs-icon-arrow-right"></i>
+											</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-news__slide">
+								<div class="rs-news__item">
+									<a href="#">
+										<div class="rs-news__img">
+											<div class="icon"></div>
+											<picture>
+												<source srcset="./img/pages/main/rs-news/news_3.webp" type="image/webp">
+												<img src="./img/pages/main/rs-news/news_3.jpg" alt="">
+											</picture>
+										</div>
+										<div class="rs-news__body">
+											<h5 class="small-title">Наши последние достижения</h5>
+											<div class="rs-news-date">25 июля 2021</div>
+											<p class="section-text">В декабре 2021 года был успешно реализован большой проект в</p>
+										</div>
+										<div class="rs-news__button">
+											<span class="rs-link">Подробнее
+												<i class="rs-icon-arrow-right"></i>
+											</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="rs-news__slide">
+								<div class="rs-news__item">
+									<a href="#">
+										<div class="rs-news__img">
+											<div class="icon"></div>
+											<picture>
+												<source srcset="./img/pages/main/rs-news/news_4.webp" type="image/webp">
+												<img src="./img/pages/main/rs-news/news_4.jpg" alt="">
+											</picture>
+										</div>
+										<div class="rs-news__body">
+											<h5 class="small-title">Анонс планируемых мероприятий</h5>
+											<div class="rs-news-date">25 июля 2021</div>
+											<p class="section-text">Приглашаем посетить совместное мероприятие, посвященное</p>
+										</div>
+										<div class="rs-news__button">
+											<span class="rs-link">Подробнее
+												<i class="rs-icon-arrow-right"></i>
+											</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="rs-news__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-news -->
+
+			<!-- rs-form -->
+			<link rel="stylesheet" href="css/pages/main/rs-form.css">
+			<section class="rs-form">
+				<div class="rs-form__bg">
+					<picture>
+						<source srcset="./img/pages/main/rs-form/form_bg.webp" type="image/webp">
+						<img src="./img/pages/main/rs-form/form_bg.jpg" alt="">
+					</picture>
+				</div>
+				<div class="rs-form__content">
+					<div class="rs-form__container">
+						<div class="rs-form__wrapper">
+							<div class="rs-form__body">
+								<h2 class="section-title">Остались <span>вопросы?</span></h2>
+								<p class="section-text">Напишите нам, и наш координатор ответит вам в ближайшее время</p>
+								<div class="rs-form__request">
+									<form action="#">
+										<div class="form-wrapper">
+											<div class="form-block">
+												<div class="form-field">
+													<input type="text" name="form[]" required placeholder="Ваше имя" class="rs-input">
+												</div>
+												<div class="form-fiels">
+													<div class="form-field">
+														<input type="tel" name="form[]" required placeholder="Номер телефона" class="rs-input">
+													</div>
+													<div class="form-field">
+														<input type="email" name="form[]" required placeholder="Ваш email" class="rs-input">
+													</div>
+												</div>
+												<div class="form-field">
+													<textarea placeholder="Ваше сообщение" class="rs-input"></textarea>
+												</div>
+												<div class="form-checkbox">
+													<label>
+														<input type="checkbox" required>
+														<span class="checkbox"></span>
+														<span class="checkbox-label">Даю своё согласие на обработку персональных данных в
+															соответствии
+															с <a href="#">пользовательским соглашением</a></span>
+													</label>
+												</div>
+												<div class="form-button">
+													<button type="submit" class="rs-btn">Задать вопрос</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="rs-form__picture">
+								<div class="rs-form__prlx_wrapper prlx-parent">
+									<div class="rs-form__prlx-item rs-form__prlx-item-1">
+										<img src="./img/pages/main/rs-form/fly.svg" alt="">
+									</div>
+									<div class="rs-form__prlx-item rs-form__prlx-item-2">
+										<svg width="281" height="170" viewBox="0 0 281 170" fill="none" xmlns="http://www.w3.org/2000/svg"
+											data-llp-composed="true" id="fly_line" class="lazy-line-painter svg-init">
+											<path
+												d="M276.64 4.08095C276.64 4.08095 177.51 97.7505 123.044 101.605C68.484 105.566 -55.2335 14.3972 37.4714 8.6888C123.124 6.57835 137.143 140.212 42.5476 165.974"
+												stroke-miterlimit="10" data-llp-id="fly_line-0" data-llp-duration="500" data-llp-delay="0"
+												fill-opacity="0" style="stroke-linecap: round;" data-llp-stroke-cap="round" />
+										</svg>
+									</div>
+									<div class="rs-form__prlx-item rs-form__prlx-item-3 prlx-animated">
+										<img src="./img/pages/main/rs-form/ellipse_13.1.svg" alt="">
+									</div>
+									<div class="rs-form__prlx-item rs-form__prlx-item-4 prlx-animated">
+										<img src="./img/pages/main/rs-form/ellipse_13.2.svg" alt="">
+									</div>
+									<div class="rs-form__prlx-item rs-form__prlx-item-5 prlx-animated">
+										<img src="./img/pages/main/rs-form/ellipse_13.3.svg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-form -->
+
+		</main>
+		<!-- /page -->
+
+		<!-- rs-footer -->
+		<link rel="stylesheet" href="css/rs-footer.css">
+		<!-- <script src="js/pages/common/rs-spollers.js" defer></script> (Уже подключен выше) -->
+		<footer>
+			<div class="rs-footer">
+				<div class="rs-footer__contact">
+					<div class="rs-footer__container">
+						<ul class="contact-list">
+							<li>
+								<i class="rs-icon-phone"></i>
+								<div>
+									Связаться с нами (Анастасия Савинцева)
+									<a href="tel:79111293981">+7 (911) 129-39-81</a>
+								</div>
+							</li>
+							<li>
+								<i class="rs-icon-email"></i>
+								<div>
+									Ответим на ваши вопросы
+									<a href="mailto:a.savintseva.nn@gmail.com">a.savintseva.nn@gmail.com</a>
+								</div>
+							</li>
+							<li>
+								<i class="rs-icon-clock"></i>
+								<div>
+									Наш режим работы
+									<span>Пн-Пт с 10:00 до 20:00</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="rs-footer__info">
+					<div class="rs-footer__container">
+						<div class="rs-footer__navigation">
+							<div data-spollers="768" data-one-spoller class="rs-footer__spollers spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title _spoller-active">Направления</button>
+									<div class="spollers__body">
+										<div class="rs-footer__menu menu">
+											<nav class="menu__body">
+												<ul class="menu__list">
+													<li class="menu-item"><a href="#">Стратегия и видение, управление</a></li>
+													<li class="menu-item"><a href="#">HR-консалтинг, управление людьми</a></li>
+													<li class="menu-item"><a href="#">Процессы, автоматизация, цифровая трансформация</a></li>
+													<li class="menu-item"><a href="#">Финансовое управление компанией</a></li>
+													<li class="menu-item"><a href="#">Отношения с потребителем</a></li>
+													<li class="menu-item"><a href="#">IT- консалтинг</a></li>
+												</ul>
+												<ul class="menu__list">
+													<li class="menu-item"><a href="#">Управление изменениями</a></li>
+													<li class="menu-item"><a href="#">Внедрение инноваций</a></li>
+													<li class="menu-item"><a href="#">Управление проектами</a></li>
+													<li class="menu-item"><a href="#">Отношения с потребителем</a></li>
+													<li class="menu-item"><a href="#">Интерим менеджмент</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">Меню сайта</button>
+									<div class="spollers__body">
+										<div class="rs-footer__menu menu">
+											<nav class="menu__body">
+												<ul class="menu__list">
+													<li class="menu-item"><a href="#">Главная</a></li>
+													<li class="menu-item"><a href="#">Команда</a></li>
+													<li class="menu-item"><a href="#">Кейсы</a></li>
+													<li class="menu-item"><a href="#">О нас</a></li>
+													<li class="menu-item"><a href="#">Новости</a></li>
+													<li class="menu-item"><a href="#">Контакты</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rs-footer__subscribe">
+							<h5 class="small-title">Узнавайте первыми о свежих новостях
+								в мире бизнеса</h5>
+							<div class="rs-footer__request">
+								<form action="#">
+									<div class="form-wrapper">
+										<div class="form-block">
+											<div class="form-field">
+												<input type="email" name="form[]" required placeholder="Ваш email" class="rs-input">
+											</div>
+											<div class="form-button">
+												<button type="submit" class="rs-btn">Подписаться</button>
+											</div>
+											<div class="form-agreement">
+												Нажимая кнопку «Подписаться», вы даете своё согласие на <a href="#">обработку персональных
+													данных</a>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rs-footer__footnote">
+					<div class="rs-footer__container">
+						<div class="rs-footer__social">
+							Мы в социальных сетях:
+							<ul class="social-list">
+								<li>
+									<a href="#">
+										<img src="./img/icons/fb.svg" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="rs-footer__copyright">
+							© In.Praktika 2021. Все права защищены.
+						</div>
+						<div class="rs-footer__develop">
+							<a href="#">
+								Разработано в
+								<img src="./img/footer/rosait_logo.svg" alt="" draggable="false">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /rs-footer -->
+
+	</div>
+	<!-- /wrapper -->
+
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<!-- Галерея -->
+	<script src="https://unpkg.com/lightgallery@2.4.0/lightgallery.min.js"></script>
+	<script src="https://unpkg.com/lightgallery@2.4.0/plugins/zoom/lg-zoom.umd.js"></script>
+	<!-- Анимация отрисовки svg -->
+	<script src="lib/lazy-line-painter-1.9.6.min.js"></script>
+	<script src="js/pages/common/lazylinepainter.js"></script>
+	<!-- Параллакс -->
+	<script src="lib/simpleParallax.min.js"></script>
+	<script src="js/pages/common/parallax-settings.js"></script>
+
+	<script src="lib/dynamic_adapt.js"></script>
+	<script src="js/rs-script.js"></script>
+
+</body>
+
+</html>

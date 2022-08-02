@@ -1,0 +1,124 @@
+.rs-cases {
+  position: relative;
+  margin: 80px 0px 0px;
+}
+
+@media (max-width: 1140px) {
+  .rs-cases {
+    margin: calc(30px + (80 - 30) * ((100vw - 320px) / (1140 - 320))) 0px;
+  }
+}
+
+.rs-cases__slider {
+  padding: 20px 30px;
+  margin: 0px -30px;
+}
+
+.rs-cases__slide {
+  min-height: 342px;
+  height: auto;
+}
+
+.rs-cases__item {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ededed;
+  border-radius: 12px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+@media (any-hover: hover) and (any-hover: hover) {
+  .rs-cases__item:hover:hover {
+    -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  }
+  .rs-cases__item:hover:hover .rs-link {
+    background-color: #3943ed;
+    color: #fff;
+  }
+  .rs-cases__item:hover:hover .rs-link i::before {
+    color: #fff;
+  }
+}
+
+.rs-cases__item a {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.rs-cases__logo {
+  height: 126px;
+  width: 100%;
+}
+
+.rs-cases__logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.rs-cases__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: center;
+  padding: 16px;
+}
+
+.rs-cases__body h4 {
+  margin-bottom: 16px;
+}
+
+.rs-cases__button {
+  width: 100%;
+  position: relative;
+}
+
+.rs-cases__button::after {
+  content: "";
+  display: block;
+  width: calc(100% - 32px);
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0;
+  z-index: -1;
+  background-color: #ededed;
+}
+
+.rs-cases__button .rs-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 0px;
+  background-color: transparent;
+}
+
+.rs-cases__button .rs-link i {
+  margin-left: 6px;
+  width: 24px;
+  display: block;
+  height: 24px;
+}
+
+.rs-cases__button .rs-link i::before {
+  color: #3943ed;
+  font-size: 24px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
